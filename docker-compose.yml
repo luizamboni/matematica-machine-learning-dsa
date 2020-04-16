@@ -1,0 +1,8 @@
+version:  '3'
+services:
+  datascience-notebook:
+      image: jupyter/datascience-notebook
+      ports:
+        - 8888:8888
+      volumes:
+        - ./exercicios/:/home/jovyan/work
